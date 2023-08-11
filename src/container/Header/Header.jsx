@@ -46,8 +46,8 @@ const Header = () => {
             </div>
             <div class="center">
               <svg width="30" height="100" viewBox="0 0 50 100" id="scroll">
-                <rect x="10" y="5" rx="10" ry="10" width="30" height="50" stroke="var(--color-white)" fill="transparent" stroke-width="3"></rect>
-                <circle cx="25" cy="25" r="6" fill="var(--color-white)" id="circle--shape"></circle>
+                <rect x="10" y="5" rx="10" ry="10" width="30" height="50" stroke="var(--color-yellow)" fill="transparent" stroke-width="3"></rect>
+                <circle cx="25" cy="25" r="6" fill="var(--color-yellow)" id="circle--shape"></circle>
               </svg>
             </div>
 

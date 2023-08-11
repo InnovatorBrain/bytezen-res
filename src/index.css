@@ -4,11 +4,13 @@
     --font-base: 'Poppins', sans-serif;
     --font-accent: 'Quicksand', sans-serif;
 
-    --color-red: #CF0A0A;
-    --color-black: #000000;
+    --color-gray: rgb(59, 71, 56);
+    --color-light: #F7E6C4;
     --color-orange: #DC5F00;
-    --color-white: #EEEEEE;
+    --color-yellow: #F1C376;
+    
 }
+
 
 * {
     box-sizing: border-box;
