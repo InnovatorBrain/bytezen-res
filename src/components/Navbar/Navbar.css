@@ -116,7 +116,7 @@
     width: 100%;
     height: 100vh;
     background: var(--color-light);
-    color: var(--color-gray);
+    color: var(--color-orange);
     transition: .5s ease;
     flex-direction: column;
     z-index: 5;
@@ -124,7 +124,7 @@
 }
 
 .app__navbar-smallscreen_overlay .overlay__close {
-    color: var(--color-gray);
+    color: var(--color-orange);
     cursor: pointer;
     position: absolute;
     top: 20px;
@@ -139,14 +139,14 @@
 .app__navbar-smallscreen_links li {
     margin: 2rem;
     cursor: pointer;
-    color: var(--color-yellow);
+    color: var(--color-orange);
     font-size: 1.5rem;
     text-align: center;
     font-family: var(--font-base);
 }
 
 .app__navbar-smallscreen_links li:hover {
-    color: var(--color-yellow);
+    color: var(--color-gray);
     text-decoration: underline;
 }
 
@@ -194,5 +194,5 @@
 
 #app__login,
 #app__table-cart {
-    color: var(--color-gray) !important;
+    color: var(--color-orange) !important;
 }
