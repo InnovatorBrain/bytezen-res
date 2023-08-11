@@ -8,9 +8,9 @@ import slide3 from '../assets/Slides/slide3.jpg';
 
 const images = {
   redBlackLogo,redWhiteLogo,whiteBlackLogo,whiteRedLogo,
-  slide1,
+  slides:{slide1,
   slide2,
-  slide3
+  slide3}
 };
 
 export default images;

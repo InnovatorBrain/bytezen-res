@@ -1,18 +1,19 @@
 import './App.css';
 
 // Container
-// import { AboutUs, Chef, FindUs, Footer, Header, Intro, Laurels, Menu } from './container'
+import { /*AboutUs, Chef, FindUs, Footer,*/ Header/*, Intro, Laurels, Menu */} from './container'
 import Navbar from './components/Navbar/Navbar';
 
 
 
 function App() {
-    return (
-      <>
-        < Navbar />
-        
-      </>
-    );
-  }
+  return (
+    <>
+      <Navbar />
+      <Header />
+
+    </>
+  );
+}
 
 export default App;
