@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Header.css';
-import images from '../../constants/images';
+
 
 const Header = () => {
   useEffect(() => {
