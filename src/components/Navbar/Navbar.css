@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: .5rem 2rem;
     background: var(--color-light);
 }
 
@@ -17,7 +17,7 @@
 
 
 .app__navbar-logo img {
-    width: 110px;
+    width: 100px;
 }
 
 .app__navbar-links {
