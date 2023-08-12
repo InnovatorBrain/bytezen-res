@@ -6,20 +6,20 @@ const DataFeatures = [
   {
     id: 1,
     Image: iconOne,
-    title: 'Free Delivery',
-    description: 'Free Delivery on all orders',
+    title: 'Outstanding Service',
+    description: 'Outstanding Service: Attentive, personalized care that exceeds expectations.',
   },
   {
     id: 2,
     Image: iconTwo,
-    title: 'Free Delivery',
-    description: 'Frejkbasljbvsjkan bljan bn bn;jk',
+    title: 'Quality Assurance',
+    description: 'Quality Assurance: Rigorous standards, impeccable ingredients for exceptional satisfaction.',
   },
   {
     id: 3,
     Image: iconThree,
-    title: 'Free Delivery',
-    description: 'Free Delivery on all orders',
+    title: 'Unbeatable Experience',
+    description: 'Unbeatable Experience: Memorable moments, surpassing all others in delight.',
   },
 ];
 

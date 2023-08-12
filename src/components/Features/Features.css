@@ -1,17 +1,19 @@
-.Features__container{
+.Features__container {
     margin: 0;
     box-sizing: border-box;
-    max-width: 100%; 
-    background-color: var(--color-light); 
+    max-width: 100%;
+    background-color: var(--color-light);
 }
-.heading__area{
+
+.heading__area {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    margin:auto;
-    justify-content:center ;
+    margin: auto;
+    justify-content: center;
 }
-.feature__hr{
+
+.feature__hr {
     width: 30px;
     border: 5px solid var(--color-orange);
     border-width: 3px;
@@ -22,59 +24,96 @@
     margin: 30px auto;
     margin-bottom: 10px;
 }
-.feature__hint{
+
+.feature__hint {
     color: var(--color-gray);
     text-align: center;
     font-family: var(--font-base);
 }
-.feature__heading{
+
+.feature__heading {
     color: var(--color-orange);
-   font-family:var(--font-accent);
-   font-size: 38px;
+    font-family: var(--font-accent);
+    font-size: 38px;
     text-align: center;
     letter-spacing: 2px;
     margin: 20px auto;
 }
-.feature__text{
+
+.feature__text {
     color: var(--color-gray);
     font-size: 16x;
     text-align: center;
     font-family: var(--font-base);
     opacity: 1;
+    
 }
-.cards__container{
+
+.cards__container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin:0;
-   
+    margin: 0;
+
 }
 
 
 /* FEATURE CARD CSS */
-.App__Features{
+.App__Features {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 40px auto;
+   
 
 }
-.Fe__image{
+
+.Fe__image {
     width: 70px;
     display: flex;
     justify-content: center;
     margin: auto;
 }
-.fe_title{
+
+.fe_title {
     font-family: var(--font-dancing);
     color: var(--color-gray);
-    font-weight:lighter;
+    font-weight: lighter;
     text-align: center;
+    margin-top: 15px;
 
 }
-.fe__tex{
+
+.fe__tex {
     font-family: var(--font-base);
     color: var(--color-gray);
-    font-size: 20px;
-    font-weight:lighter;
+    font-size: 16px;
+    font-weight: lighter;
     text-align: center;
+    margin-top: 20px;
+    
 }
+
+
+/* The "cards__container" is the class where cards render in FeaturCards */
+@media screen and (max-width: 575.98px) {
+
+    .cards__container {
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .cards__container {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media screen and (min-width: 1200px) {}
