@@ -1,9 +1,9 @@
 import './App.css';
 
 // Container
-import { /*AboutUs,*/ Chef,/* FindUs, Footer,*/ Header/*, Intro, Laurels, Menu */ } from './container'
+import { /*AboutUs,Chef, FindUs, Footer,*/ Header/*, Intro, Laurels, Menu */ } from './container'
 import Navbar from './components/Navbar/Navbar';
-
+import Discover from './container/Discover/Discover';
 
 
 function App() {
@@ -11,7 +11,8 @@ function App() {
     <>
       <Navbar />
       <Header />
-      <Chef />
+      <Discover />
+
 
     </>
   );
