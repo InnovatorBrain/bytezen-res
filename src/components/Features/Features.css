@@ -42,3 +42,39 @@
     font-family: var(--font-base);
     opacity: 1;
 }
+.cards__container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin:0;
+   
+}
+
+
+/* FEATURE CARD CSS */
+.App__Features{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.Fe__image{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.fe_title{
+    font-family: var(--font-dancing);
+    color: var(--color-gray);
+    font-weight:lighter;
+    text-align: center;
+
+}
+.fe__tex{
+    font-family: var(--font-base);
+    color: var(--color-gray);
+    font-size: 20px;
+    font-weight:lighter;
+    text-align: center;
+}

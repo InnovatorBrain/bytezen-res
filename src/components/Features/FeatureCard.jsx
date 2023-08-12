@@ -4,9 +4,9 @@ const FeatureCard = (props) => {
     return (
         <div className="App__Features">
 
-            <img src={props.Image} alt="feature-1" />
-            <h4 className='feature_'>{props.title}</h4>
-            <p className='feature__tex'>{props.description}</p>
+            <img src={props.image} alt="feature-1" className='Fe__image'/>
+            <h1 className='fe_title'>{props.title} </h1>
+            <p className='fe__tex'>{props.description}</p>
 
         </div>
     )

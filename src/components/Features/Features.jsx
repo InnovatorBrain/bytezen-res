@@ -21,7 +21,9 @@ const Features = () => {
                 <h1 className='feature__heading'>Why people choose us?</h1>
                 <p className='feature__text'>Porro eveniet, autem ipsam vitae consequatur!</p>
             </div>
-            {cards}
+            <div className="cards__container">
+                {cards}
+            </div>
         </div>
     );
 };
