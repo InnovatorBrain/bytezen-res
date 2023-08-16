@@ -1,0 +1,136 @@
+.menu--Container {
+    position: relative;
+    height: 100vh;
+    /* Adjust the height as needed */
+    overflow: hidden;
+
+}
+
+.menu--Image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/MenuItems/menuBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
+}
+
+.menu--Overlay {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+    margin: 0;
+
+    /* 200px padding for static background */
+    /* overflow-y: scroll; */
+    transform: translateY(0);
+    /* Initial transform value */
+}
+
+
+/* HEADING AREA */
+.menu--Heading {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: 100% 100%;
+}
+
+.menu__heading {
+    color: var(--color-orange);
+    font-weight: bold;
+    font-family: var(--font-accent);
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    padding: 25px auto;
+    padding-bottom: 20px;
+}
+
+.menu__hint {
+    padding-top: 20px;
+    padding: auto;
+    color: var(--color-gray);
+    text-align: center;
+    font-family: var(--font-base);
+}
+
+
+/* MenuIcons */
+.menu--icons {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.menu--icon-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.menu--icon-div:hover{
+ color: var(--color-orange);
+}
+.menu--icon-div>h3{
+    font-size: 16px;
+    font-family: var(--font-base);
+
+}
+
+.menu--icon {
+    display: flex;
+    justify-content: space-around;
+    width: 60px;
+    margin: 10px 50px;
+    /* ... */
+}
+
+.menu--icon:hover {
+    box-shadow: 1px 1px 200px #252525;
+    color: var(--color-orange);
+    border: none;
+    cursor: pointer;
+}
+
+.menu--icon:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+    
+}
+
+
+
+
+
+
+
+
+/* Icons */
+
+@media screen and (max-width: 575.98px) {
+
+    .menu--icons {
+        flex-direction: column;
+    }
+    .menu--icon {
+        margin: 10px auto;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media screen and (min-width: 1200px) {}
