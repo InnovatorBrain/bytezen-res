@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Poppins:wght@300;400;700&family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;700&family=Quicksand&display=swap');
+
 :root {
     --font-base: 'Poppins', sans-serif;
     --font-accent: 'Quicksand', sans-serif;
@@ -9,7 +10,7 @@
     --color-light: #F7E6C4;
     --color-orange: #DC5F00;
     --color-yellow: #F1C376;
-    
+
 }
 
 

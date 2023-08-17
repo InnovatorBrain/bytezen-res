@@ -1,11 +1,15 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+
 
 // Container
-import { /*AboutUs,Chef, FindUs, Footer,*/ Header/*, Intro, Laurels*/, Menu  } from './container'
+import { /*AboutUs,Chef, FindUs, Footer,*/ Header/*, Intro, Laurels*/, Menu } from './container'
 import Navbar from './components/Navbar/Navbar';
 import Discover from './container/Discover/Discover';
 import Features from './components/Features/Features';
+import NewsLetter from './container/NewsLetter/NewsLetter';
 import SplashScreen from './components/SplashScreen/SplashScreen';
 
 
@@ -26,14 +30,17 @@ function App() {
 
   return (
     <>
-    {/* SplashScreen */}
+      {/* SplashScreen */}
       {isLoading ? <SplashScreen /> : <div>
-        <Navbar />
-        <Header />
-        <Discover />
-        <Features />
-        <Menu />
+        <BrowserRouter>
+          <Routes>
+
+            <Route path='' element={<><div className='HOME'><Navbar /><Header /> <Discover /><Features />  <Menu /> <NewsLetter /></div></>} />
+
+          </Routes>
+        </BrowserRouter>
       </div>}
+
     </>
   );
 }

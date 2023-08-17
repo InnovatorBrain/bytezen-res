@@ -21,6 +21,18 @@ import MenuIcon2 from '../assets/MenuItems/icons/image2.png';
 import MenuIcon3 from '../assets/MenuItems/icons/image3.png';
 import MenuIcon4 from '../assets/MenuItems/icons/image4.png';
 import MenuBackground from '../assets/MenuItems/menuBackground.jpg';
+// MenuCards
+import MenuCard1 from '../assets/MenuItems/image01.jpg';
+import MenuCard2 from '../assets/MenuItems/image02.jpg';
+import MenuCard3 from '../assets/MenuItems/image03.jpg';
+import MenuCard4 from '../assets/MenuItems/image04.jpg';
+import MenuCard5 from '../assets/MenuItems/image05.jpg';
+// NewsLetter
+import NewsCardItem1 from '../assets/NewsLetterCard/item1.jpg'
+import NewsCardItem2 from '../assets/NewsLetterCard/item2.jpg'
+import NewsCardItem3 from '../assets/NewsLetterCard/item3.jpg'
+import NewsCardPerson1 from '../assets/NewsLetterCard/team_image01.jpg'
+import NewsCardPerson2 from '../assets/NewsLetterCard/team_image02.jpg'
 const images = {
   redBlackLogo, redWhiteLogo, whiteBlackLogo, whiteRedLogo, underLine, DiscoverImage,
   slides: {
@@ -31,6 +43,8 @@ const images = {
 
   MenuItems: { Menu1, Menu2, Menu3, Menu4, Menu5, MenuBackground },
   MenuIcons: { MenuIcon1, MenuIcon2, MenuIcon3, MenuIcon4 },
+  MenuCards: { MenuCard1, MenuCard2, MenuCard3, MenuCard4, MenuCard5 },
+  NewsLetter:{ NewsCardItem1, NewsCardItem2, NewsCardItem3, NewsCardPerson1, NewsCardPerson2}
 };
 
 export default images;

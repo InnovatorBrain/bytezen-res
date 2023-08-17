@@ -2,6 +2,7 @@ import React from 'react';
 import './Features.css';
 import FeatureCard from './FeatureCard';
 import DataFeatures from './DataFeatures';
+import SubHeading from '../SubHeading/SubHeading';
 
 
 const Features = () => {
@@ -15,12 +16,7 @@ const Features = () => {
 
     return (
         <div className='Features__container'>
-            <div className="heading__area">
-                <hr className='feature__hr' />
-                <h4 className='feature__hint'>Features</h4>
-                <h1 className='feature__heading'>Why people choose us?</h1>
-                <p className='feature__text'>Unrivaled dining experience, where flavors meet unforgettable ambiance.</p>
-            </div>
+            <SubHeading hint='Features' title='Why people choose us?' text='Unrivaled dining experience, where flavors meet unforgettable ambiance.' />
             <div className="cards__container">
                 {cards}
             </div>

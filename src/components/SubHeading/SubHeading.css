@@ -1,0 +1,92 @@
+.Features__container {
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color: var(--color-light);
+}
+
+.heading__area {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.feature__hr {
+    width: 30px;
+    border: 5px solid var(--color-orange);
+    border-width: 3px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    margin-bottom: 10px;
+}
+
+.feature__hint {
+    color: var(--color-gray);
+    text-align: center;
+    font-family: var(--font-base);
+    text-transform: uppercase;
+}
+
+.feature__heading {
+    color: var(--color-orange);
+    font-family: var(--font-accent);
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 20px auto;
+}
+
+.feature__text {
+    color: var(--color-gray);
+    font-size: 16x;
+    text-align: center;
+    font-family: var(--font-base);
+    opacity: 1;
+
+}
+
+.cards__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0;
+
+}
+
+
+
+@media (max-width: 576px) {
+
+    /* Your styles for extra small devices */
+    .heading__area {
+        margin: auto 10px;
+    }
+
+
+}
+
+/* Small Devices (tablets, 577px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+
+    /* Your styles for small devices */
+    .heading__area {
+        margin: auto 20px;
+    }
+
+
+}
+
+/* Medium Devices (laptops, 769px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+
+    /* Your styles for medium devices */
+    .heading__area {
+        margin: auto 50px;
+    }
+
+}

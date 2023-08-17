@@ -1,129 +1,291 @@
 .menu--Container {
-    position: relative;
-    height: 100vh;
-    /* Adjust the height as needed */
-    overflow: hidden;
+  position: relative;
+  height: 120vh;
+  /* Adjust the height as needed */
+  overflow: hidden;
 
 }
 
 .menu--Image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../../assets/MenuItems/menuBackground.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/MenuItems/menuBackground.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 1;
 }
 
 .menu--Overlay {
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 0 0 0 0;
-    margin: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 0;
+  margin: 0;
 
-    /* 200px padding for static background */
-    /* overflow-y: scroll; */
-    transform: translateY(0);
-    /* Initial transform value */
+  /* 200px padding for static background */
+  /* overflow-y: scroll; */
+  transform: translateY(0);
+  /* Initial transform value */
 }
 
 
 /* HEADING AREA */
 .menu--Heading {
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.5);
-    background-size: 100% 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-size: 100% 100%;
 }
 
 .menu__heading {
-    color: var(--color-orange);
-    font-weight: bold;
-    font-family: var(--font-accent);
-    font-size: 42px;
-    text-align: center;
-    letter-spacing: 2px;
-    margin: 0 auto;
-    padding: 25px auto;
-    padding-bottom: 20px;
+  color: var(--color-orange);
+  font-weight: bold;
+  font-family: var(--font-accent);
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  padding: 25px auto;
+  padding-bottom: 20px;
 }
 
 .menu__hint {
-    padding-top: 20px;
-    padding: auto;
-    color: var(--color-gray);
-    text-align: center;
-    font-family: var(--font-base);
+  padding-top: 20px;
+  padding: auto;
+  color: var(--color-gray);
+  text-align: center;
+  font-family: var(--font-base);
 }
 
 
 /* MenuIcons */
 .menu--icons {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 
 }
-.menu--icon-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+
+.menu--icon-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.3s;
 }
-.menu--icon-div:hover{
- color: var(--color-orange);
+
+.menu--icon-div:active {
+  color: var(--color-orange);
 }
-.menu--icon-div>h3{
-    font-size: 16px;
-    font-family: var(--font-base);
+
+.menu--icon-div:hover {
+  color: var(--color-orange);
+}
+
+.menu--icon-div>h3 {
+  font-size: 16px;
+  font-family: var(--font-base);
 
 }
 
 .menu--icon {
-    display: flex;
-    justify-content: space-around;
-    width: 60px;
-    margin: 10px 50px;
-    /* ... */
+  display: flex;
+  justify-content: space-around;
+  width: 60px;
+  margin: 10px 50px;
+  /* ... */
 }
 
 .menu--icon:hover {
-    box-shadow: 1px 1px 200px #252525;
-    color: var(--color-orange);
-    border: none;
-    cursor: pointer;
+  box-shadow: 1px 1px 200px #252525;
+  color: var(--color-orange);
+  border: none;
+  cursor: pointer;
 }
 
 .menu--icon:hover::after {
-    visibility: visible;
-    transform: scale(100) translateX(2px);
-    
+  visibility: visible;
+  transform: scale(100) translateX(2px);
+
 }
 
+/* CARDS IS HERE  */
 
 
+/* .menu--Card-Container{
+  max-height: 350px;
+} */
+.center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 105%;
+  justify-content: center;
+
+}
+
+/* Wrapper Container */
+.wrapper {
+  display: flex;
+  gap: 0 1em;
+  overflow: hidden;
+  width: 55em;
+  height: 100%;
 
 
+}
 
+.wrapper>.inner {
+  display: flex;
+  gap: 1em;
+  transition: all 1s ease-in-out;
+}
 
+/* Card Styling */
+.card {
+  border-radius: 0.5em;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
 
-/* Icons */
+.card>img {
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+  display: block;
+  width: 17.5em;
+}
+
+.card>.content {
+  background: var(--color-orange);
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  padding: 1em;
+  text-align: center;
+
+}
+
+.card>.content>h1,
+.card>.content>h3 {
+  margin: 0.35em 0;
+}
+
+.card>.content>h1 {
+  color: var(--color-light);
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1;
+  font-family: var(--font-base);
+}
+
+.card>.content>h3 {
+  color: var(--color-light);
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  font-family: var(--font-base);
+}
+/* Order Now Menu Card Button */
+.menu--card-button {
+  font-size: 18px;
+  color: var(--color-light);
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: capitalize;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  font-family: var(--font-base);
+  /* padding-bottom: 5px; */
+  max-width: 60%;
+  margin: auto;
+  text-align: justify;
+}
+
+.menu--card-button:focus,
+.menu--card-button:hover {
+  color: var(--color-gray);
+}
+
+.menu--card-button:focus:after,
+.menu--card-button:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.menu--card-button:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: var(--color-gray);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+/* Map Styling */
+/* Map Styling */
+/* Map Styling */
+.map {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 5rem;
+}
+
+.map>button {
+  all: unset;
+  background: #d0d8e1;
+  /* Adjust color here */
+  cursor: pointer;
+  margin: 0 0.125em;
+  position: relative;
+  user-select: none;
+  border-radius: 100%;
+  height: 1em;
+  width: 1em;
+}
+
+.map>button.active::after {
+  background: var(--color-orange);
+  /* Adjust color here */
+  content: "";
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  border-radius: 100%;
+  height: 0.5em;
+  width: 0.5em;
+}
+
+/* Card styling */
+.content{
+  background-color: var(--color-orange);
+}
 
 @media screen and (max-width: 575.98px) {
 
-    .menu--icons {
-        flex-direction: column;
-    }
-    .menu--icon {
-        margin: 10px auto;
-    }
+  .menu--icons {
+    flex-direction: column;
+    max-height: 400px;
+  }
+
+  .menu--icon {
+    margin: 10px auto;
+  }
 
 }
 

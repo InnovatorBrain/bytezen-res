@@ -15,6 +15,10 @@
     background-repeat: repeat;
     background-attachment: fixed;
   }
+  ::selection {
+    background-color: var(--color-orange); /* Change to the desired background color */
+    color: #ffffff; /* Change to the desired text color */
+  }
   
   .app__wrapper {
     display: flex;
