@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--color-light);
+    width: 100%;
+    padding: 40px;
+    /* height: 20vh; */
+
+}
+
+.Counter_hr {
+    border-top: 1px dashed var(--color-gray);
+    width: 100%;
+    margin: 0 auto;
+    border-spacing: 10px;
+
+}
+
+.counter {
+    text-align: center;
+}
+
+.CounterUpLine {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin-left: 2rem;
+}
+
+.valueSign {
+    font-size: 50px;
+    display: block;
+    font-family: var(--font-accent);
+    font-weight: normal;
+    color: var(--color-orange);
+
+}
+
+.value {
+    font-size: 50px;
+    display: block;
+    font-family: var(--font-accent);
+    font-weight: normal;
+    color: var(--color-graye);
+}
+
+.label {
+    margin-top: 5px;
+    color: var(--color-graye);
+    font-size: 14px;
+    font-family: var(--font-accent);
+
+    display: block;
+    font-weight: bold;
+
+}
+
+
+
+
+/* Extra Small Devices (phones, up to 576px) */
+@media (max-width: 576px) {
+
+    /* Your styles for extra small devices */
+
+    .Content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* Small Devices (tablets, 577px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {}
+
+/* Medium Devices (laptops, 769px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {}
+
+/* Large Devices (desktops, 993px - 1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    /* Your styles for large devices */
+}
+
+/* Extra Large Devices (large desktops, 1201px and above) */
+@media (min-width: 1201px) {
+    /* Your styles for extra large devices */
+}
