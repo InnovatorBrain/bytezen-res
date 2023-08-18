@@ -18,7 +18,7 @@ export const NewsLetterData = [
     title: 'Tuna & Tomatoes',
     description: 'Consectetur adipisicing elit. Soluta, impedit, saepe. Unde minima distinctio officiis amet temporibus, consequuntur dolorem dicta…',
     imagee: images.NewsLetter.NewsCardPerson1,
-    category: 'DESERTS, SALADS',
+    category: 'DESERTS',
     refName:"OLEKSANDR",
     time:"August 1, 2023"
   },
@@ -28,7 +28,7 @@ export const NewsLetterData = [
     title: 'Pancakes in Chocolate',
     description: 'Consectetur adipisicing elit. Soluta, impedit, saepe. Unde minima distinctio officiis amet temporibus, consequuntur dolorem dicta…',
     imagee: images.NewsLetter.NewsCardPerson2,
-    category: 'DESERTS, SALADS',
+    category: 'BREAKFAST, LUNCH, DINNER',
     refName:"ALEX",
     time:"August 1, 2023"
   },

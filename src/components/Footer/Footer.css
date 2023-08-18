@@ -1,0 +1,237 @@
+.Footer_Container {
+    margin: 3rem 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* list-style-type: none; */
+    font-family: var(--font-base);
+    align-content: center;
+}
+
+.Footer_AboutUs_Section,
+.Footer_Services_Section,
+.Footer_ContactUs_Section {
+    width: 25%;
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+}
+
+.Footer_AboutUs_title,
+.Footer_Services_title,
+.Footer_ContactUs_title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1.5rem auto;
+}
+
+
+li {
+    list-style-type: none;
+    margin: .5rem auto;
+
+}
+
+/* Links Style */
+li {
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+li:hover {
+    color: var(--color-orange);
+}
+
+
+
+
+
+
+
+
+.Footer_Images_Section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+}
+
+.appStoreImageOne,
+.appStoreImageTwo {
+    width: 40%;
+    margin: 1rem 3rem;
+}
+
+
+
+.Footer_SocialMedia_Section_cont {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.Footer_SocialMedia_Section {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: flex-start;
+}
+
+.Footer_SocialMedia_Ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+}
+
+.Footer_SocialMedia_Ul li a {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 2rem;
+    font-size: 22px;
+    margin-bottom: 15px;
+    align-items: center;
+
+}
+
+
+.AllRightReserve {
+    display: flex;
+    justify-content: flex-end;
+    /* Align content to the right */
+    align-items: center;
+    width: 50%;
+    align-content: center;
+    font-family: var(--font-base);
+    font-size: 14px;
+    margin: 0 5rem;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 576px) {
+    .Footer_Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        align-content: center;
+    }
+
+    .Footer_AboutUs_Section,
+    .Footer_Services_Section,
+    .Footer_ContactUs_Section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .Footer_Images_Section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .appStoreImageOne,
+    .appStoreImageTwo {
+        width: 100%;
+        max-width: 150px;
+        margin: 1rem auto;
+    }
+
+
+    .Footer_SocialMedia_Section_cont {
+        flex-direction: column;
+        margin: auto 2rem;
+    }
+
+    .Footer_SocialMedia_Section {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .AllRightReserve {
+
+        justify-content: center;
+        width: 100%;
+        align-content: center;
+        margin: 1rem auto;
+
+    }
+
+
+}
+
+/* Small devices (landscape phones) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+    .Footer_AboutUs_Section,
+    .Footer_Services_Section,
+    .Footer_ContactUs_Section {
+        width: 100%;
+        margin: 1rem;
+    }
+
+
+    .Footer_Images_Section {
+        width: 100%;
+    }
+
+    .appStoreImageOne,
+    .appStoreImageTwo {
+        width: 100%;
+        max-width: 250px;
+        margin: 1rem auto;
+    }
+
+
+    .Footer_SocialMedia_Section_cont {
+        flex-direction: column;
+        margin: auto 2rem;
+    }
+
+    .Footer_SocialMedia_Section {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .AllRightReserve {
+
+        justify-content: center;
+        width: 100%;
+        margin: 1rem auto;
+
+    }
+
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Styles */
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Styles */
+}
+
+/* Extra large devices (large desktops) */
+@media only screen and (min-width: 1200px) {
+    /* Styles */
+}

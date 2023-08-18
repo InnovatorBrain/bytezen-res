@@ -15,6 +15,7 @@
     background-image: url("../../assets/Slides/slide2.jpg");
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 .app__Header-overlay {
@@ -54,10 +55,11 @@
 
 .app__Heading-Text {
     /* display: flex; */
-    color: var(--color-yellow);
+    color: var(--color-orange);
     text-align: center;
     justify-content: center;
     font-family: var(--font-accent);
+    letter-spacing: 4px;
 }
 
 #app__Paragraph {
@@ -94,11 +96,11 @@ button {
     padding: 10px 20px;
     border-radius: 100px;
     background: transparent;
-    border: 2px solid var(--color-yellow);
+    border: 2px solid var(--color-orange);
     display: flex;
     align-items: center;
     font-size: 15px;
-    color: var(--color-yellow);
+    color: var(--color-orange);
 }
 
 button:hover {
@@ -114,7 +116,7 @@ button>svg {
 
 button:hover svg {
     transform: translateX(5px);
-    color: var(--color-yellow);
+    color: var(--color-orange);
 }
 
 #button-2 {

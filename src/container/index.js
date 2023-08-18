@@ -6,6 +6,9 @@ import Header from './Header/Header'
 import Intro from './Intro/Intro'
 import Laurels from './Laurels/Laurels'
 import Menu from './Menu/Menu'
+import BookTableCon from './BookTableCon/BookTableCon'
+
+
 
 export {
   AboutUs,
@@ -15,6 +18,7 @@ export {
   Header,
   Intro,
   Laurels,
-  Menu
+  Menu,
+  BookTableCon
 }
 

@@ -33,8 +33,13 @@ import NewsCardItem2 from '../assets/NewsLetterCard/item2.jpg'
 import NewsCardItem3 from '../assets/NewsLetterCard/item3.jpg'
 import NewsCardPerson1 from '../assets/NewsLetterCard/team_image01.jpg'
 import NewsCardPerson2 from '../assets/NewsLetterCard/team_image02.jpg'
+// BookTable
+import BookTableImage from '../assets/BookTable image.jpg'
+// AppStore Images For Footer
+import AppStoreImageOne from '../assets/AppStoreOne.png'
+import AppStoreImageTwo from '../assets/AppStoreTwo.png'
 const images = {
-  redBlackLogo, redWhiteLogo, whiteBlackLogo, whiteRedLogo, underLine, DiscoverImage,
+  redBlackLogo, redWhiteLogo, whiteBlackLogo, whiteRedLogo, underLine, DiscoverImage, BookTableImage, AppStoreImageOne, AppStoreImageTwo,
   slides: {
     slide1,
     slide2,
