@@ -4,16 +4,25 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 // Container
-import { /*AboutUs,Chef, FindUs, Footer,*/ Header/*, Intro, Laurels*/, Menu, BookTableCon } from './container'
+import { /*Chef, FindUs, Footer,*/ Header/*, Intro, Laurels*/, Menu, BookTableCon, AboutUs } from './container'
 import Navbar from './components/Navbar/Navbar';
 import Discover from './container/Discover/Discover';
 import Features from './components/Features/Features';
 import NewsLetter from './container/NewsLetter/NewsLetter';
+import SubHeading from './components/SubHeading/SubHeading'
 import SplashScreen from './components/SplashScreen/SplashScreen';
 import AnimeCounter from './components/AnimCounter/AnimeCounter';
+import Menuitem from './components/Menuitem/Menuitem';
+
 // import BottomSlide from './components/BottomSlide/BottomSlide';
 import Footer from './components/Footer/Footer';
 
+// About Us
+import SportLogos from './components/SportLogos/SportLogos';
+import YouTubeVideo from './components/YouTubeVideo/YouTubeVideo';
+
+// Gallery
+import GalleryMain from './container/Gallery/GalleryMain';
 
 
 
@@ -40,7 +49,26 @@ function App() {
 
             <Route path='' element={<><div className='HOME'><Navbar /><Header /> <Discover /><Features />  <Menu /> <NewsLetter /> <AnimeCounter /> <BookTableCon /> <Footer /></div></>} />
             <Route path='/Home' element={<><div className='HOME'><Navbar /><Header /> <Discover /><Features />  <Menu /> <NewsLetter /> <AnimeCounter /><BookTableCon /> <Footer /></div></>} />
-            <Route path='/AboutUs' element={<><div className='HOME'><Navbar /><NewsLetter /> <AnimeCounter /></div></>} />
+
+
+            <Route path='/AboutUs' element={<><div className='ABOUTUS'><Navbar /> <AboutUs title="About Us" />
+              <SubHeading hint="WHO WE ARE" title="We Invite You to Visit Our Restaurant" text="Assumenda possimus eaque illo iste, autem. Porro eveniet, autem ipsam vitae amet repellat repudiandae tenetur, quod corrupti consectetur cum? Repudiandae dignissimos fugiat sit nam. Tempore aspernatur quae repudiandae dolorem, beatae dolorum, praesentium itaque et quam quaerat. Cumque, consequatur! Tempore aspernatur quae repudiandae dolorem, beatae dolorum, praesentium itaque et quam quaerat. Cumque, consequatur!" />
+              <SportLogos /> <AnimeCounter /><YouTubeVideo videoId="NC9KlaxtfLg" /> <Features /> <NewsLetter /> <Footer /></div></>} />
+
+
+            <Route path='/Gallery' element={<><div className='GALLERY'><Navbar /> <AboutUs title="Gallery" />
+              <SubHeading hint="GALLERY" title="Our Best Moments" text="Porro eveniet, autem ipsam corrupti consectetur cum. Repudiandae dignissimos fugiat sit nam." />
+              <GalleryMain />
+              <Footer /> </div></>} />
+
+
+            <Route path='/Menu' element={<><div className='GALLERY'><Navbar /> <AboutUs title="MENU LIST" />
+              <SubHeading hint="YOUR'S CHOICE" title="Global Flavors Feast" text="menu category. Indulge in a symphony of tastes and aromas as we bring you the best dishes from various corners of the globe. " />
+              {/* for morning */}
+              <Menuitem />
+
+
+              <Menu /><Footer /> </div></>} />
 
           </Routes>
         </BrowserRouter>

@@ -38,6 +38,26 @@ import BookTableImage from '../assets/BookTable image.jpg'
 // AppStore Images For Footer
 import AppStoreImageOne from '../assets/AppStoreOne.png'
 import AppStoreImageTwo from '../assets/AppStoreTwo.png'
+
+// AboutUs Page Images
+import AboutUsTop from '../assets/AboutUs/AboutUsTop.jpg'
+// SportLogos
+import SportLogo1 from '../assets/SportsLogos/a1-140x140.png';
+import SportLogo2 from '../assets/SportsLogos/a2-140x140.png';
+import SportLogo3 from '../assets/SportsLogos/a3-140x140.png';
+import SportLogo4 from '../assets/SportsLogos/a4-140x140.png';
+
+// Gallery
+import Gallery1 from '../assets/Gallery/Gallery (1).jpg';
+import Gallery2 from '../assets/Gallery/Gallery (2).jpg';
+import Gallery3 from '../assets/Gallery/Gallery (3).jpg';
+import Gallery4 from '../assets/Gallery/Gallery (4).jpg';
+import Gallery5 from '../assets/Gallery/Gallery (5).jpg';
+import Gallery6 from '../assets/Gallery/Gallery (6).jpg';
+import Gallery7 from '../assets/Gallery/Gallery (7).jpg';
+import Gallery8 from '../assets/Gallery/Gallery (8).jpg';
+import Gallery9 from '../assets/Gallery/Gallery (9).jpg';
+import Gallery10 from '../assets/Gallery/Gallery (10).jpg';
 const images = {
   redBlackLogo, redWhiteLogo, whiteBlackLogo, whiteRedLogo, underLine, DiscoverImage, BookTableImage, AppStoreImageOne, AppStoreImageTwo,
   slides: {
@@ -49,7 +69,11 @@ const images = {
   MenuItems: { Menu1, Menu2, Menu3, Menu4, Menu5, MenuBackground },
   MenuIcons: { MenuIcon1, MenuIcon2, MenuIcon3, MenuIcon4 },
   MenuCards: { MenuCard1, MenuCard2, MenuCard3, MenuCard4, MenuCard5 },
-  NewsLetter:{ NewsCardItem1, NewsCardItem2, NewsCardItem3, NewsCardPerson1, NewsCardPerson2}
+  NewsLetter: { NewsCardItem1, NewsCardItem2, NewsCardItem3, NewsCardPerson1, NewsCardPerson2 },
+  AboutUs: { AboutUsTop },
+  SportsLogos: { SportLogo1, SportLogo2, SportLogo3, SportLogo4 },
+  Gallery: { Gallery1, Gallery2, Gallery3, Gallery4, Gallery5, Gallery6, Gallery7, Gallery8, Gallery9, Gallery10 }
+
 };
 
 export default images;

@@ -3,6 +3,7 @@
     box-sizing: border-box;
     max-width: 100%;
     background-color: var(--color-light);
+   
 }
 
 .heading__area {
@@ -11,6 +12,7 @@
     max-width: 100%;
     margin: auto;
     justify-content: center;
+    
 }
 
 .feature__hr {
@@ -46,7 +48,8 @@
     font-size: 16x;
     text-align: center;
     font-family: var(--font-base);
-    opacity: 1;
+    opacity: 0.9 !important;
+    margin-bottom: 2rem !important;
 
 }
 
@@ -64,7 +67,7 @@
 
     /* Your styles for extra small devices */
     .heading__area {
-        margin: auto 10px;
+        margin: auto 3rem !important;
     }
 
 
@@ -75,7 +78,7 @@
 
     /* Your styles for small devices */
     .heading__area {
-        margin: auto 20px;
+        margin: auto 3rem !important;
     }
 
 
@@ -86,7 +89,15 @@
 
     /* Your styles for medium devices */
     .heading__area {
-        margin: auto 50px;
+        margin: auto 3rem !important;
+    }
+
+}
+@media (min-width: 992px){
+
+    /* Your styles for medium devices */
+    .heading__area {
+        margin: auto 5rem !important;
     }
 
 }

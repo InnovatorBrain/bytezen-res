@@ -65,6 +65,7 @@
 
 /* MenuIcons */
 .menu--icons {
+  /* position: relative; */
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -125,7 +126,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 105%;
+  height: 100%;
   justify-content: center;
 
 }
@@ -149,8 +150,9 @@
 
 /* Card Styling */
 .card {
-  border-radius: 0.5em;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 1em;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+  height: 0;
 }
 
 .card>img {
@@ -161,11 +163,12 @@
 }
 
 .card>.content {
-  background: var(--color-orange);
+  background: var(--color-gray);
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
   padding: 1em;
   text-align: center;
+  opacity: 1;
 
 }
 
@@ -175,25 +178,27 @@
 }
 
 .card>.content>h1 {
-  color: var(--color-light);
+  color: var(--color-white);
   font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  font-family: var(--font-base);
+  letter-spacing: 3px;
+}
+
+.card>.content>h3 {
+  color: var(--color-white);
+  font-size: 16px;
   font-weight: normal;
   line-height: 1;
   font-family: var(--font-base);
 }
 
-.card>.content>h3 {
-  color: var(--color-light);
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1;
-  font-family: var(--font-base);
-}
 /* Order Now Menu Card Button */
 .menu--card-button {
   font-size: 18px;
-  color: var(--color-light);
-  font-weight: 800;
+  color: var(--color-orange);
+  font-weight: bold;
   cursor: pointer;
   position: relative;
   border: none;
@@ -211,7 +216,7 @@
 
 .menu--card-button:focus,
 .menu--card-button:hover {
-  color: var(--color-gray);
+  color: var(--color-white);
 }
 
 .menu--card-button:focus:after,
@@ -247,7 +252,7 @@
 
 .map>button {
   all: unset;
-  background: #d0d8e1;
+  background: var(--color-white);
   /* Adjust color here */
   cursor: pointer;
   margin: 0 0.125em;
@@ -272,7 +277,7 @@
 }
 
 /* Card styling */
-.content{
+.content {
   background-color: var(--color-orange);
 }
 
@@ -280,11 +285,13 @@
 
   .menu--icons {
     flex-direction: column;
-    max-height: 400px;
+    /* max-height: 400px; */
+    position: relative;
   }
 
-  .menu--icon {
-    margin: 10px auto;
+  .center {
+    height: 82%;
+
   }
 
 }

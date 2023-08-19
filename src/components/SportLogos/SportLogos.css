@@ -1,0 +1,70 @@
+.sport-container{
+    box-sizing: border-box;
+    margin: 3rem 13rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0;
+    
+
+}
+.Sport-image-cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.7 !important;
+}
+.Sport-text{
+    margin: 8px auto;
+    font-size: 14px;
+}
+.SportLogo{
+   width: 80px;
+
+}
+.Sport-image-cont:hover{
+    opacity: 1 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Small Devices (portrait phones) */
+@media (max-width: 575.98px) {
+    .sport-container{
+        flex-direction: column;
+        margin: 2rem 4rem;
+    }
+  }
+  
+  /* Small Devices (landscape phones) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* Your CSS rules for small devices */
+    .Sport-image-cont{
+        margin: auto 2rem;
+    }
+  }
+  
+  /* Medium Devices (tablets) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Your CSS rules for medium devices */
+  }
+  
+  /* Large Devices (desktops) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Your CSS rules for large devices */
+  }
+  
+  /* Extra Large Devices (large desktops and beyond) */
+  @media (min-width: 1200px) {
+    /* Your CSS rules for extra large devices */
+  }
+  
