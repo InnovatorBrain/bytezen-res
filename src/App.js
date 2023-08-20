@@ -46,7 +46,7 @@ function App() {
   return (
     <>
       {/* SplashScreen */}
-      {isLoading ? <SplashScreen /> : <div>
+      {isLoading ? <SplashScreen /> :
         <BrowserRouter>
           <Routes>
 
@@ -88,7 +88,7 @@ function App() {
 
           </Routes>
         </BrowserRouter>
-      </div>}
+      }
 
     </>
   );
