@@ -1,0 +1,113 @@
+.ContactHeader-container {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    /* text-align: center;  */
+}
+
+.ContactHeader-image {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ContactHeader-title {
+    display: flex;
+    font-size: 5vw;
+    /* Use viewport units for font size */
+    position: absolute;
+    font-size: 70px;
+    text-decoration: double;
+    font-family: var(--font-accent);
+    font-weight: bolder;
+    color: var(--color-orange);
+    text-transform: uppercase;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* Center the title perfectly */
+    z-index: 3;
+
+}
+
+#Conatct-H-L {
+    display: flex;
+    border-bottom-left-radius: 20px;
+    background-color: var(--color-orange);
+    padding: 10px;
+    color: var(--color-white);
+}
+
+#Conatct-H-R {
+    display: flex;
+    border-top-right-radius: 20px;
+    background-color: var(--color-gray);
+    padding: 10px;
+    color: var(--color-white);
+}
+
+.ContactLocation-icon {
+    position: absolute;
+    color: var(--color-orange);
+    Right: 30%;
+    top: 49%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 576px) {
+    .ContactHeader-title {
+        font-size: 10vw;
+        /* Adjust font size for smaller screens */
+    }
+
+    .ContactHeader-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Conatct-H-L {
+        border-bottom-left-radius: 0 !important;
+        border-top-right-radius: 20px;
+    }
+
+    #Conatct-H-R {
+        border-top-right-radius: 0 !important;
+        border-bottom-left-radius: 20px;
+    }
+
+}
+
+/* Small devices (landscape phones) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Styles */
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Styles */
+}
+
+/* Extra large devices (large desktops) */
+@media only screen and (min-width: 1200px) {
+    /* Styles */
+}

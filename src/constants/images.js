@@ -69,8 +69,16 @@ import MenuCardItems6 from '../assets/MenuitemsCard/MenuCard (6).jpg';
 import MenuCardItems7 from '../assets/MenuitemsCard/MenuCard (7).jpg';
 import MenuCardItems8 from '../assets/MenuitemsCard/MenuCard (8).jpg';
 import MenuCardItems9 from '../assets/MenuitemsCard/MenuCard (9).jpg';
+
+// Contact
+import ContactHeaderImage from '../assets/Contact/location High Quality.jpg'
+import ContactHeaderImage_ from '../assets/Contact/location image.jpg'
+import Contactways1 from '../assets/Contact/icon-contact-adr-256x256.png'
+import Contactways2 from '../assets/Contact/icon-contact-email-256x256.png'
+import Contactways3 from '../assets/Contact/icon.png'
+import Contactways4 from '../assets/Contact/icon-contact-tel-256x256.png'
 const images = {
-  redBlackLogo, redWhiteLogo, whiteBlackLogo, whiteRedLogo, underLine, DiscoverImage, BookTableImage, AppStoreImageOne, AppStoreImageTwo,
+  redBlackLogo, redWhiteLogo, whiteBlackLogo, whiteRedLogo, underLine, DiscoverImage, BookTableImage, AppStoreImageOne, AppStoreImageTwo,ContactHeaderImage,ContactHeaderImage_,
   slides: {
     slide1,
     slide2,
@@ -85,7 +93,7 @@ const images = {
   SportsLogos: { SportLogo1, SportLogo2, SportLogo3, SportLogo4 },
   Gallery: { Gallery1, Gallery2, Gallery3, Gallery4, Gallery5, Gallery6, Gallery7, Gallery8, Gallery9, Gallery10 },
   MenuitemsCard: { MenuCardItems1, MenuCardItems2, MenuCardItems3, MenuCardItems4, MenuCardItems5, MenuCardItems6, MenuCardItems7, MenuCardItems8, MenuCardItems9 },
-  
+  ContactWays: { Contactways1, Contactways2, Contactways3, Contactways4 },
 
 };
 

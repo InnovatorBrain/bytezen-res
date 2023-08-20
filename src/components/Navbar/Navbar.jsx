@@ -48,10 +48,10 @@ const Navbar = () => {
             <li className='p-links'><Link to="/Shop">Shop</Link></li>
           </ul>
           <div className='app__navbar-login'>
-            <Link to="/Login" className='p-links' ><FaShoppingCart size={20} /></Link>
+            <Link to="/Cart" className='p-links' ><FaShoppingCart size={20} /></Link>
           </div>
           <div className='app__navbar-login'>
-            <Link to="/Table-cart" className='p-links'>Book-Table</Link>
+            <Link to="/Book-Table" className='p-links'>Book-Table</Link>
           </div>
           <div className="app__navbar-smallscreen">
             <GiHamburgerMenu color="#DC5F00" fontSize={27} onClick={() => setToggleMenu(true)} />
@@ -66,10 +66,10 @@ const Navbar = () => {
                   <li><Link to="/Contact" onClick={() => setToggleMenu(false)}>Contact</Link></li>
                   <li><Link to="/Shop" onClick={() => setToggleMenu(false)}>Shop</Link></li>
                   <li id='app__login'>
-                    <Link to="/Login" className='p-links' onClick={() => setToggleMenu(false)}><FaShoppingCart size={20} /></Link>
+                    <Link to="/Cart" className='p-links' onClick={() => setToggleMenu(false)}><FaShoppingCart size={20} /></Link>
                   </li>
                   <li id='app__table-cart'>
-                    <Link to="/Table-cart" className='p-links' onClick={() => setToggleMenu(false)}>Book-Table</Link>
+                    <Link to="/Book-Table" className='p-links' onClick={() => setToggleMenu(false)}>Book-Table</Link>
                   </li>
                 </ul>
 

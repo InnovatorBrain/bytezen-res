@@ -23,7 +23,10 @@ import YouTubeVideo from './components/YouTubeVideo/YouTubeVideo';
 
 // Gallery
 import GalleryMain from './container/Gallery/GalleryMain';
-
+// ContactHeader
+import ContactHeader from './components/ContactHeader/ContactHeader';
+import ContactMain from './components/ContactMain/ContactMain';
+import Contactways from './components/Contactways/Contactways';
 
 
 
@@ -35,7 +38,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 1000); // Simulating a 2-second loading delay
+    }, 5000); // Simulating a 2-second loading delay
   }, []);
 
 
@@ -66,9 +69,22 @@ function App() {
               <SubHeading hint="YOUR'S CHOICE" title="Global Flavors Feast" text="menu category. Indulge in a symphony of tastes and aromas as we bring you the best dishes from various corners of the globe. " />
               {/* for morning */}
               <Menuitem />
-
-
               <Menu /><Footer /> </div></>} />
+
+
+            <Route path='/Contact' element={<><div className='GALLERY'>
+              <Navbar />
+              <ContactHeader />
+              <SubHeading hint="GET IN TOUCH" title="Contact Information" text="Porro eveniet, autem ipsam vitae consequatur!" />
+              <Contactways />
+              <ContactMain />
+              <Footer />
+            </div></>}
+            />
+
+
+            <Route path='/Book-Table' element={<><div className='HOME'><Navbar /> <AboutUs title="Secure Table" /> <BookTableCon /> <AnimeCounter /> <NewsLetter /> <Footer /></div></>} />
+
 
           </Routes>
         </BrowserRouter>
