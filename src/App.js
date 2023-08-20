@@ -50,8 +50,8 @@ function App() {
         <BrowserRouter>
           <Routes>
 
-            <Route path=" " element={<><div className='HOME'><Navbar /><Header /> <Discover /><Features />  <Menu /> <NewsLetter /> <AnimeCounter /> <BookTableCon /> <Footer /></div></>} />
-            <Route path="/" element={<><div className='HOME'><Navbar /><Header /> <Discover /><Features />  <Menu /> <NewsLetter /> <AnimeCounter /> <BookTableCon /> <Footer /></div></>} />
+            <Route path="" element={<><div className='HOME'><Navbar /><Header /> <Discover /><Features />  <Menu /> <NewsLetter /> <AnimeCounter /> <BookTableCon /> <Footer /></div></>} />
+            <Route path="/bytezen-res" element={<><div className='HOME'><Navbar /><Header /> <Discover /><Features />  <Menu /> <NewsLetter /> <AnimeCounter /> <BookTableCon /> <Footer /></div></>} />
             <Route path='/Home' element={<><div className='HOME'><Navbar /><Header /> <Discover /><Features />  <Menu /> <NewsLetter /> <AnimeCounter /><BookTableCon /> <Footer /></div></>} />
 
 
