@@ -1,0 +1,207 @@
+.MenuitemsCard-container {
+  margin: 2rem 1rem;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.Menuitem-card {
+  margin: 1rem;
+  width: 50%;
+  max-width: 650px;
+  height: 200px;
+  background: var(--color-yellow);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  /* backdrop-filter: blur(10px); */
+  transition: 0.5s ease-in-out;
+}
+
+.Menuitem-card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.Menuitem-img {
+  width: 250px;
+  height: 200px;
+  margin-left: 0;
+  border-radius: 10px;
+}
+
+.Menuitem-card:hover>.Menuitem-img {
+  transition: 0.5s ease-in-out;
+}
+
+.Menuitem-textBox {
+  width: 100%;
+  margin-left: 15px;
+  color: var(--color-gray);
+  font-family: var(--font-base);
+}
+
+.Menuitem-textContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 1rem;
+}
+
+.span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.Menuitem-title {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.Menuitem-p {
+  margin: 1rem;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Small Devices (phones, up to 576px) */
+@media (max-width: 576px) {
+
+  /* Your styles for extra small devices */
+
+  .MenuitemsCard-container {
+    margin: 2rem 1rem;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+
+  .Menuitem-card {
+    margin: 1rem auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* backdrop-filter: blur(10px); */
+    transition: 0.5s ease-in-out;
+  }
+
+  .Menuitem-img {
+    width: 35%;
+    height: 100%;
+    margin-left: 0;
+    border-radius: 10px;
+  }
+
+  .span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .Menuitem-title {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .Menuitem-p {
+    margin: 1rem;
+    font-size: 14px;
+    font-weight: lighter;
+  }
+
+
+}
+
+/* Small Devices (tablets, 577px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .MenuitemsCard-container {
+    margin: 2rem 1rem;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+
+  .Menuitem-card {
+    margin: 1rem auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* backdrop-filter: blur(10px); */
+    transition: 0.5s ease-in-out;
+  }
+
+  .Menuitem-img {
+    width: 250px;
+    height: 200px;
+    margin-left: 0;
+    border-radius: 10px;
+  }
+
+
+
+}
+
+/* Medium Devices (laptops, 769px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .MenuitemsCard-container {
+    margin: 2rem 1rem;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+
+  .Menuitem-card {
+    margin: 1rem auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* backdrop-filter: blur(10px); */
+    transition: 0.5s ease-in-out;
+  }
+
+  .Menuitem-img {
+    width: 250px;
+    height: 200px;
+    margin-left: 0;
+    border-radius: 10px;
+  }
+
+}
+
+/* Large Devices (desktops, 993px - 1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* Your styles for large devices */
+}
+
+/* Extra Large Devices (large desktops, 1201px and above) */
+@media (min-width: 1201px) {
+  /* Your styles for extra large devices */
+}

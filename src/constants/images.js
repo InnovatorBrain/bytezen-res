@@ -58,6 +58,17 @@ import Gallery7 from '../assets/Gallery/Gallery (7).jpg';
 import Gallery8 from '../assets/Gallery/Gallery (8).jpg';
 import Gallery9 from '../assets/Gallery/Gallery (9).jpg';
 import Gallery10 from '../assets/Gallery/Gallery (10).jpg';
+
+// Menuitems Card Images
+import MenuCardItems1 from '../assets/MenuitemsCard/MenuCard (1).jpg';
+import MenuCardItems2 from '../assets/MenuitemsCard/MenuCard (2).jpg';
+import MenuCardItems3 from '../assets/MenuitemsCard/MenuCard (3).jpg';
+import MenuCardItems4 from '../assets/MenuitemsCard/MenuCard (4).jpg';
+import MenuCardItems5 from '../assets/MenuitemsCard/MenuCard (5).jpg';
+import MenuCardItems6 from '../assets/MenuitemsCard/MenuCard (6).jpg';
+import MenuCardItems7 from '../assets/MenuitemsCard/MenuCard (7).jpg';
+import MenuCardItems8 from '../assets/MenuitemsCard/MenuCard (8).jpg';
+import MenuCardItems9 from '../assets/MenuitemsCard/MenuCard (9).jpg';
 const images = {
   redBlackLogo, redWhiteLogo, whiteBlackLogo, whiteRedLogo, underLine, DiscoverImage, BookTableImage, AppStoreImageOne, AppStoreImageTwo,
   slides: {
@@ -72,7 +83,9 @@ const images = {
   NewsLetter: { NewsCardItem1, NewsCardItem2, NewsCardItem3, NewsCardPerson1, NewsCardPerson2 },
   AboutUs: { AboutUsTop },
   SportsLogos: { SportLogo1, SportLogo2, SportLogo3, SportLogo4 },
-  Gallery: { Gallery1, Gallery2, Gallery3, Gallery4, Gallery5, Gallery6, Gallery7, Gallery8, Gallery9, Gallery10 }
+  Gallery: { Gallery1, Gallery2, Gallery3, Gallery4, Gallery5, Gallery6, Gallery7, Gallery8, Gallery9, Gallery10 },
+  MenuitemsCard: { MenuCardItems1, MenuCardItems2, MenuCardItems3, MenuCardItems4, MenuCardItems5, MenuCardItems6, MenuCardItems7, MenuCardItems8, MenuCardItems9 },
+  
 
 };
 
