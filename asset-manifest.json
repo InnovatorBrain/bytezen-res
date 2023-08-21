@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bytezen-res/static/css/main.76ae2cf0.css",
+    "main.css": "/bytezen-res/static/css/main.8ed3afe4.css",
     "main.js": "/bytezen-res/static/js/main.63f8f943.js",
     "static/media/menuBackground.jpg": "/bytezen-res/static/media/menuBackground.a24f2daf565339dab4a1.jpg",
     "static/media/location image.jpg": "/bytezen-res/static/media/location image.ca7a0f6b699963aa6e39.jpg",
@@ -71,11 +71,11 @@
     "static/media/iconOne.png": "/bytezen-res/static/media/iconOne.db62a0e03f6cbbd7eace.png",
     "static/media/icon-contact-email-256x256.png": "/bytezen-res/static/media/icon-contact-email-256x256.972b6131681e5339be59.png",
     "index.html": "/bytezen-res/index.html",
-    "main.76ae2cf0.css.map": "/bytezen-res/static/css/main.76ae2cf0.css.map",
+    "main.8ed3afe4.css.map": "/bytezen-res/static/css/main.8ed3afe4.css.map",
     "main.63f8f943.js.map": "/bytezen-res/static/js/main.63f8f943.js.map"
   },
   "entrypoints": [
-    "static/css/main.76ae2cf0.css",
+    "static/css/main.8ed3afe4.css",
     "static/js/main.63f8f943.js"
   ]
 }
