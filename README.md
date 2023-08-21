@@ -8,10 +8,6 @@
 </a>
 
 
-### CV - d e s i g n
-A brief overview of my education, work experience, and a few personal projects and skills.
-
-
 
 # React Resturent App 
 
