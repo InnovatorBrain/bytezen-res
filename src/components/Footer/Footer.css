@@ -38,10 +38,8 @@ li {
     transition-duration: 400ms;
     transition-property: color;
 }
-
 li:hover {
     color: var(--color-orange);
-    text-decoration: underline;
 }
 
 
