@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bytezen-res/static/css/main.870b35f7.css",
-    "main.js": "/bytezen-res/static/js/main.40f78103.js",
+    "main.css": "/bytezen-res/static/css/main.76ae2cf0.css",
+    "main.js": "/bytezen-res/static/js/main.63f8f943.js",
     "static/media/menuBackground.jpg": "/bytezen-res/static/media/menuBackground.a24f2daf565339dab4a1.jpg",
     "static/media/location image.jpg": "/bytezen-res/static/media/location image.ca7a0f6b699963aa6e39.jpg",
     "static/media/location High Quality.jpg": "/bytezen-res/static/media/location High Quality.66f639f53945107ff8f2.jpg",
@@ -43,7 +43,17 @@
     "static/media/MenuCard (9).jpg": "/bytezen-res/static/media/MenuCard (9).5ce5c6a7d6c0c7de84e6.jpg",
     "static/media/team_image01.jpg": "/bytezen-res/static/media/team_image01.729a1d4c4907ef4ab9a1.jpg",
     "static/media/team_image02.jpg": "/bytezen-res/static/media/team_image02.31a035b99dfc55a14fe5.jpg",
+    "static/media/ShopProduct (4).jpg": "/bytezen-res/static/media/ShopProduct (4).d53388e20e3685897f68.jpg",
+    "static/media/ShopProduct (7).jpg": "/bytezen-res/static/media/ShopProduct (7).2ce5b76783f1462b5b2d.jpg",
+    "static/media/ShopProduct (8).jpg": "/bytezen-res/static/media/ShopProduct (8).2ce5b76783f1462b5b2d.jpg",
+    "static/media/ShopProduct (10).jpg": "/bytezen-res/static/media/ShopProduct (10).b7b82356d5c77afe666a.jpg",
+    "static/media/ShopProduct (1).jpg": "/bytezen-res/static/media/ShopProduct (1).81091d0048f119726fb9.jpg",
+    "static/media/ShopProduct (11).jpg": "/bytezen-res/static/media/ShopProduct (11).81091d0048f119726fb9.jpg",
     "static/media/item2.jpg": "/bytezen-res/static/media/item2.a70d165c98ed4add866e.jpg",
+    "static/media/ShopProduct (3).jpg": "/bytezen-res/static/media/ShopProduct (3).ef96cb7e4dbeb9a4a184.jpg",
+    "static/media/ShopProduct (2).jpg": "/bytezen-res/static/media/ShopProduct (2).ebaddeb910d07fe26427.jpg",
+    "static/media/ShopProduct (5).jpg": "/bytezen-res/static/media/ShopProduct (5).cc1f1c69d1a4383ad526.jpg",
+    "static/media/ShopProduct (6).jpg": "/bytezen-res/static/media/ShopProduct (6).cc1f1c69d1a4383ad526.jpg",
     "static/media/white and black.png": "/bytezen-res/static/media/white and black.ec8784906863b4fc5ba5.png",
     "static/media/red and white.png": "/bytezen-res/static/media/red and white.18ffa373d26eccce7b06.png",
     "static/media/white and red.png": "/bytezen-res/static/media/white and red.a9f10e78808857e80b06.png",
@@ -53,6 +63,7 @@
     "static/media/image3.png": "/bytezen-res/static/media/image3.d7ca5360d88f15ef44c2.png",
     "static/media/image2.png": "/bytezen-res/static/media/image2.f28f94708e536b10d23b.png",
     "static/media/icon-contact-tel-256x256.png": "/bytezen-res/static/media/icon-contact-tel-256x256.4f9c7cb1b1a5ea0ed995.png",
+    "static/media/ShopProduct (9).jpg": "/bytezen-res/static/media/ShopProduct (9).4c4078610a7149de4ba1.jpg",
     "static/media/image4.png": "/bytezen-res/static/media/image4.f23d4418ba23bcfa097b.png",
     "static/media/a1-140x140.png": "/bytezen-res/static/media/a1-140x140.e4215613f468fdb09706.png",
     "static/media/icon-contact-adr-256x256.png": "/bytezen-res/static/media/icon-contact-adr-256x256.f4190da55d0b3ddd1d1e.png",
@@ -60,11 +71,11 @@
     "static/media/iconOne.png": "/bytezen-res/static/media/iconOne.db62a0e03f6cbbd7eace.png",
     "static/media/icon-contact-email-256x256.png": "/bytezen-res/static/media/icon-contact-email-256x256.972b6131681e5339be59.png",
     "index.html": "/bytezen-res/index.html",
-    "main.870b35f7.css.map": "/bytezen-res/static/css/main.870b35f7.css.map",
-    "main.40f78103.js.map": "/bytezen-res/static/js/main.40f78103.js.map"
+    "main.76ae2cf0.css.map": "/bytezen-res/static/css/main.76ae2cf0.css.map",
+    "main.63f8f943.js.map": "/bytezen-res/static/js/main.63f8f943.js.map"
   },
   "entrypoints": [
-    "static/css/main.870b35f7.css",
-    "static/js/main.40f78103.js"
+    "static/css/main.76ae2cf0.css",
+    "static/js/main.63f8f943.js"
   ]
 }
