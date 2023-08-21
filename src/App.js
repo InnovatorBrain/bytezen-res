@@ -27,7 +27,8 @@ import GalleryMain from './container/Gallery/GalleryMain';
 import ContactHeader from './components/ContactHeader/ContactHeader';
 import ContactMain from './components/ContactMain/ContactMain';
 import Contactways from './components/Contactways/Contactways';
-
+// Shop
+import ShopMain from './components/ShopMain/ShopMain';
 
 
 function App() {
@@ -85,6 +86,9 @@ function App() {
 
 
             <Route path='/Book-Table' element={<><div className='HOME'><Navbar /> <AboutUs title="Secure Table" /> <BookTableCon /> <AnimeCounter /> <NewsLetter /> <Footer /></div></>} />
+
+
+            <Route path='/Shop' element={<><div className='HOME'><Navbar /> <AboutUs title="Shop" /> <ShopMain /><Footer /></div></>} />
 
 
           </Routes>

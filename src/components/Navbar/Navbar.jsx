@@ -37,7 +37,9 @@ const Navbar = () => {
       <>
         <nav className='app__navbar'>
           <div className='app__navbar-logo'>
-            <img src={images.whiteRedLogo} alt='app logo' />
+            <Link to="/Home">
+              <img src={images.whiteRedLogo} alt='app logo' />
+            </Link>
           </div>
           <ul className="app__navbar-links">
             <li className='p-links'><Link to="/Home">Home</Link></li>
@@ -77,7 +79,7 @@ const Navbar = () => {
               </div>
             )}
           </div>
-        </nav>
+        </nav >
       </>
       : ""
   )

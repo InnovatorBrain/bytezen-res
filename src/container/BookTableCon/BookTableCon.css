@@ -9,6 +9,8 @@
     width: 50%;
     display: flex;
     justify-content: flex-start;
+    border: 4px solid;
+    border-image: conic-gradient( #F1C376, rgb(52, 45, 32), #DC5F00,#F1C376) 1;
 
 }
 

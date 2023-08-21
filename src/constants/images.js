@@ -77,8 +77,21 @@ import Contactways1 from '../assets/Contact/icon-contact-adr-256x256.png'
 import Contactways2 from '../assets/Contact/icon-contact-email-256x256.png'
 import Contactways3 from '../assets/Contact/icon.png'
 import Contactways4 from '../assets/Contact/icon-contact-tel-256x256.png'
+
+// Shop
+import ShopProduct1 from '../assets/Shop/ShopProduct (1).jpg'
+import ShopProduct2 from '../assets/Shop/ShopProduct (2).jpg'
+import ShopProduct3 from '../assets/Shop/ShopProduct (3).jpg'
+import ShopProduct4 from '../assets/Shop/ShopProduct (4).jpg'
+import ShopProduct5 from '../assets/Shop/ShopProduct (5).jpg'
+import ShopProduct6 from '../assets/Shop/ShopProduct (6).jpg'
+import ShopProduct7 from '../assets/Shop/ShopProduct (7).jpg'
+import ShopProduct8 from '../assets/Shop/ShopProduct (8).jpg'
+import ShopProduct9 from '../assets/Shop/ShopProduct (9).jpg'
+import ShopProduct10 from '../assets/Shop/ShopProduct (10).jpg'
+import ShopProduct11 from '../assets/Shop/ShopProduct (11).jpg'
 const images = {
-  redBlackLogo, redWhiteLogo, whiteBlackLogo, whiteRedLogo, underLine, DiscoverImage, BookTableImage, AppStoreImageOne, AppStoreImageTwo,ContactHeaderImage,ContactHeaderImage_,
+  redBlackLogo, redWhiteLogo, whiteBlackLogo, whiteRedLogo, underLine, DiscoverImage, BookTableImage, AppStoreImageOne, AppStoreImageTwo, ContactHeaderImage, ContactHeaderImage_,
   slides: {
     slide1,
     slide2,
@@ -94,6 +107,7 @@ const images = {
   Gallery: { Gallery1, Gallery2, Gallery3, Gallery4, Gallery5, Gallery6, Gallery7, Gallery8, Gallery9, Gallery10 },
   MenuitemsCard: { MenuCardItems1, MenuCardItems2, MenuCardItems3, MenuCardItems4, MenuCardItems5, MenuCardItems6, MenuCardItems7, MenuCardItems8, MenuCardItems9 },
   ContactWays: { Contactways1, Contactways2, Contactways3, Contactways4 },
+  ShopProducts: { ShopProduct1, ShopProduct2, ShopProduct3, ShopProduct4, ShopProduct5, ShopProduct6, ShopProduct7, ShopProduct8, ShopProduct9, ShopProduct10, ShopProduct11 },
 
 };
 
